@@ -13,5 +13,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Run a one-line script
-        run: echo OK
+      - uses: ouzi-dev/commit-status-updater@v1.1.0
+        with:
+          status: "success"
